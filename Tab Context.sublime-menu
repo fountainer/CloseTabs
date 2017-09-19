@@ -1,0 +1,21 @@
+[
+  {
+    "caption": "-"
+  },
+  {
+    "caption": "Close Tabs",
+    "children":
+    [
+      {
+        "caption": "Tabs to the Left",
+        "command": "close_tabs",
+        "args": {"type": "left"}
+      },
+      {
+        "caption": "Tabs in this Group",
+        "command": "close_tabs",
+        "args": {"type": "group"}
+      }
+    ]
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "caption": "Close Tabs: to Left",
+    "command": "close_tabs",
+    "args": {"type": "left"}
+  },
+  {
+    "caption": "Close Tabs: in this Group",
+    "command": "close_tabs",
+    "args": {"type": "group"}
+  }
+]
