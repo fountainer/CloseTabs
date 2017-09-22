@@ -1,12 +1,27 @@
 [
   {
-    "caption": "Close Tabs: to Left",
-    "command": "close_tabs",
-    "args": {"type": "left"}
+    "caption": "Close Tabs: Tabs to the Left",
+    "command": "close_tabs_left",
+    "args": {"arg": "this"}
   },
   {
-    "caption": "Close Tabs: in this Group",
-    "command": "close_tabs",
-    "args": {"type": "group"}
+    "caption": "Close Tabs: Tabs in this Group",
+    "command": "close_tabs_group",
+    "args": {"arg": "this"}
+  },
+  {
+    "caption": "Close Tabs: Tabs in other Groups",
+    "command": "close_tabs_group",
+    "args": {"arg": "others"}
+  },
+  {
+    "caption": "Close Tabs: Tabs in Same Folder",
+    "command": "close_tabs_folder",
+    "args": {"arg": "this"}
+  },
+  {
+    "caption": "Close Tabs: Tabs in other Folders",
+    "command": "close_tabs_folder",
+    "args": {"arg": "others"}
   }
 ]
