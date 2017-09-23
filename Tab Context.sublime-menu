@@ -3,7 +3,7 @@
     "caption": "-"
   },
   {
-    "caption": "Close Tabs",
+    "caption": "Close Tabs - Prompt for Unsaved",
     "children":
     [
       {
@@ -30,6 +30,99 @@
         "caption": "Tabs in other Folders",
         "command": "close_tabs_folder",
         "args": {"arg": "others"}
+      }
+    ]
+  },
+  {
+    "caption": "Close Tabs - Skip Unsaved",
+    "children":
+    [
+      {
+        "caption": "Tabs to the Left",
+        "command": "close_tabs_left",
+        "args": {"arg": "this", "skip": true}
+      },
+      {
+        "caption": "Tabs in this Group",
+        "command": "close_tabs_group",
+        "args": {"arg": "this", "skip": true}
+      },
+      {
+        "caption": "Tabs in other Groups",
+        "command": "close_tabs_group",
+        "args": {"arg": "others", "skip": true}
+      },
+      {
+        "caption": "Tabs in Same Folder",
+        "command": "close_tabs_folder",
+        "args": {"arg": "this", "skip": true}
+      },
+      {
+        "caption": "Tabs in other Folders",
+        "command": "close_tabs_folder",
+        "args": {"arg": "others", "skip": true}
+      }
+    ]
+  },
+  {
+    "caption": "Close Tabs - Save Unsaved",
+    "children":
+    [
+      {
+        "caption": "Tabs to the Left",
+        "command": "close_tabs_left",
+        "args": {"arg": "this", "save": true}
+      },
+      {
+        "caption": "Tabs in this Group",
+        "command": "close_tabs_group",
+        "args": {"arg": "this", "save": true}
+      },
+      {
+        "caption": "Tabs in other Groups",
+        "command": "close_tabs_group",
+        "args": {"arg": "others", "save": true}
+      },
+      {
+        "caption": "Tabs in Same Folder",
+        "command": "close_tabs_folder",
+        "args": {"arg": "this", "save": true}
+      },
+      {
+        "caption": "Tabs in other Folders",
+        "command": "close_tabs_folder",
+        "args": {"arg": "others", "save": true}
+      }
+    ]
+  },
+  {
+    "caption": "Close Tabs - Discard Unsaved",
+    "children":
+    [
+      {
+        "caption": "Tabs to the Left",
+        "command": "close_tabs_left",
+        "args": {"arg": "this", "save": false}
+      },
+      {
+        "caption": "Tabs in this Group",
+        "command": "close_tabs_group",
+        "args": {"arg": "this", "save": false}
+      },
+      {
+        "caption": "Tabs in other Groups",
+        "command": "close_tabs_group",
+        "args": {"arg": "others", "save": false}
+      },
+      {
+        "caption": "Tabs in Same Folder",
+        "command": "close_tabs_folder",
+        "args": {"arg": "this", "save": false}
+      },
+      {
+        "caption": "Tabs in other Folders",
+        "command": "close_tabs_folder",
+        "args": {"arg": "others", "save": false}
       }
     ]
   }
